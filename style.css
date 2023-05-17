@@ -43,4 +43,6 @@ body{
 
 .menu-item:hover{
     background-color: #ecffff3f;
+    border-bottom-style: inset;
+    box-shadow: inset 0 0 -5px 0 #ECFFFF;
 }
