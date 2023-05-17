@@ -19,6 +19,7 @@ body{
     display: flex;
     background-color: #00172452;
     white-space: nowrap;
+    flex-wrap: wrap;
 }
 
 .title{
