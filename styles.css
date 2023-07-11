@@ -55,12 +55,25 @@ body {
 }
 
 .navbar{
-    background: rgba(68, 60, 60, 0.88);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.bg-dark{
+    background: rgba(68, 60, 60, 0.398) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.159);
     backdrop-filter: blur(9.2px);
     -webkit-backdrop-filter: blur(9.2px);
-    border: 1px solid rgba(68, 60, 60, 1);
-    z-index: 1;
+    border: 1px solid rgba(68, 60, 60, 0.294);
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+}
+
+.nav-link.active{
+    color: var(--color1) !important;
 }
 
 
