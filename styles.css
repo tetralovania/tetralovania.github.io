@@ -66,11 +66,14 @@ body {
     border: 1px solid rgba(68, 60, 60, 0.294);
 }
 
-.navbar-expand-lg .navbar-collapse{
-    justify-content: center;
-    width: 100vw;
-    position: absolute;
-}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+      justify-content: center;
+      width: 100vw;
+      position: absolute;
+    }
+  }
+  
 
 .nav-link.active{
     color: var(--color1) !important;
